@@ -977,22 +977,28 @@ font-size: 3rem;
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Portfolio card
 --------------------------------------------------------------*/
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 350px;
 }
 
 .work-box:hover img {
   transform: scale(1.3);
+
 }
+
+/*portfolio image*/
 
 .work-img {
   display: block;
   overflow: hidden;
+  height: 230px;
+  width: 100%;
 }
 
 .work-img img {
@@ -1581,3 +1587,4 @@ footer .credits a {
   font-size: 14px;
   line-height: 2px;
 }
+
