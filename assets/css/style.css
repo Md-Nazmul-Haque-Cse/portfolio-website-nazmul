@@ -266,18 +266,24 @@ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+
 }
 
 .list-ico {
-  line-height: 2;
+  line-height: 1;
 }
+
+
 
 .list-ico span {
   color: #0078ff;
   margin-right: 10px;
+
 }
 
-/*------/ Ico Circle /------*/
+
+/*------/ Ico Circle  Social icon/------*/
+
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -288,6 +294,7 @@ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
+
 }
 
 /*------/ Owl Carousel /------*/
@@ -1567,4 +1574,10 @@ footer .credits a {
   font-size: 19px;
   font-weight: 600;
   padding: 0;
+}
+
+.email-font
+{
+  font-size: 15px;
+  line-height: 2px;
 }
